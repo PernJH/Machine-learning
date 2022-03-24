@@ -4,6 +4,8 @@ Medical Mask Selfie Facial Recognition
 # Dependencies
 https://www.tensorflow.org/  
 https://keras.io/  
+https://scikit-learn.org/stable/  
+
 
 
 # Installation
