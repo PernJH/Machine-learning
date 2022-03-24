@@ -15,4 +15,4 @@ This project is for facial recognition using facial images with medical mask sel
 # How to use the code
 
 
-# Porject Outcome
+# Project Outcome
