@@ -16,3 +16,11 @@ This project is for facial recognition using facial images with medical mask sel
 Run the code according to the sequence.
 
 # Project Outcome
+
+ Method               Accuracy
+ Logistic Regression  71.98%
+ MLP                  68.85%
+ CNN                  89.71%
+ SVM                  89.25%
+ RFC                  68.15%
+ 
