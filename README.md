@@ -19,7 +19,7 @@ This project is for facial recognition using facial images with medical mask sel
 # How to use the code
 Run the code according to the sequence.
 
-# Project Outcome
+# Project Outcome and Conclusion
 
  Method               /Accuracy  
  Logistic Regression  71.98%  
@@ -31,3 +31,7 @@ Run the code according to the sequence.
   We have trained 5 different models and obtained convolutional neural networks with 89.71% accuracy that have the highest performing because it is more suitable for image classification. The reason CNN can have such good performance is because it can extract important features from images and perform learning from it. With the learning experience from lectures and online resources, we have discovered many different algorithms and gained new knowledge that help us during the experimental period.
   There are some improvements we can make if we have more time, more group members and more computational resources. First, we would like to put more time on image pre-processing to make images more suitable for training. For example, resize images with different pixels, remove noise and image augmentation such as flipping or rotating the images. Next, with more group members and computational resources means we can have more algorithm trained and more hyperparameter settings on every model. Because not every member's computer is powerful and they cannot handle a large computing process which will shut their computer down.
  
+# Further Explanation of Methodology
+A complete CNN architecture consists of several layers. The first layer, convolutional layer, we pass an array of rescale/resize images to the conv2D layer with rectified linear unit (ReLU) activation functions that filter the images to produce feature maps. 
+Next, the output will pass to the pooling layer to reduce the size of the image and return the maximum pixel value which is the important feature for each of the feature maps. There will be multiple convolutional layers followed by a pooling layer in CNN. The next layer is a fully connected layer, first we will flatten the output of the previous layer and pass to the next fully connected layer to make classification. The last layer will output the classification result with softmax activation.
+
