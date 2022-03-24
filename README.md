@@ -5,7 +5,7 @@ Medical Mask Selfie Facial Recognition
 
 
 # Installation
-You may use Jupyter Notebook or Google Colab to open the code.
+Install Jupyter Notebook or open Google Colab to open the code.
 
 # About project
 This project is developed for Multimedia University, Faculty of Information Science and 
